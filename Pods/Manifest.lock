@@ -1,0 +1,52 @@
+PODS:
+  - Alamofire (5.0.0-rc.3)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - Parchment (1.7.0)
+  - PromiseKit (6.12.0):
+    - PromiseKit/CorePromise (= 6.12.0)
+    - PromiseKit/Foundation (= 6.12.0)
+    - PromiseKit/UIKit (= 6.12.0)
+  - PromiseKit/CorePromise (6.12.0)
+  - PromiseKit/Foundation (6.12.0):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.12.0):
+    - PromiseKit/CorePromise
+  - Realm (4.1.1):
+    - Realm/Headers (= 4.1.1)
+  - Realm/Headers (4.1.1)
+  - RealmSwift (4.1.1):
+    - Realm (= 4.1.1)
+  - SideMenu (6.4.6)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.0.0-beta.6)
+  - FMDB
+  - Parchment
+  - PromiseKit (~> 6.8)
+  - RealmSwift
+  - SideMenu
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - FMDB
+    - Parchment
+    - PromiseKit
+    - Realm
+    - RealmSwift
+    - SideMenu
+
+SPEC CHECKSUMS:
+  Alamofire: ca8c0de6906873be89d6deec5c8de279e00bf872
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  Parchment: cae686f73685d16742cec9c19239b7578a15f0f5
+  PromiseKit: c06835ba442ce5454ce3cdde470232804a6e4ff8
+  Realm: 25f0a8244cbb1c2271c922963ea8666fc2d8104d
+  RealmSwift: 9e2657b33764f80e4a4dffd6d440e24715782052
+  SideMenu: 43910eb6dc994dd59771f8e82573d04a9e776361
+
+PODFILE CHECKSUM: 089bcf7125d988d02bf311db7b22c9c8e38ed3a6
+
+COCOAPODS: 1.8.4

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="245" id="KGk-i7-Jjw" customClass="AQICircleCell" customModule="AQIDemo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="245"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="244.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EZK-rf-Y4N" customClass="CircleView" customModule="AQIDemo" customModuleProvider="target">
+                        <rect key="frame" x="16" y="11" width="288" height="223"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="aqiValue">
+                                <integer key="value" value="300"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="EZK-rf-Y4N" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="4EJ-xW-zFy"/>
+                    <constraint firstItem="EZK-rf-Y4N" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="YlZ-QU-3uZ"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="EZK-rf-Y4N" secondAttribute="bottom" id="Zo4-vn-BkM"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="EZK-rf-Y4N" secondAttribute="trailing" id="uTe-tb-ha0"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="aqiView" destination="EZK-rf-Y4N" id="09W-dU-n68"/>
+            </connections>
+            <point key="canvasLocation" x="131.8840579710145" y="211.94196428571428"/>
+        </tableViewCell>
+    </objects>
+</document>
